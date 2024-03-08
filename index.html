@@ -103,10 +103,20 @@
       </div>
     </section>
     <section id="reservation" class="reservation">
-      <form class="form__reservation">
-        <h2 class="reservation__title">Reservar una mesa</h2>
-
-
+      <h2 class="reservation__title">Reservar una mesa</h2>
+      <form class="form">
+        <label>Nombre*</label>
+        <input type="text" required placeholder="Nombre Apellido">
+        <label>Numero de comensales*</label>
+        <input type="number" required placeholder="1-8">
+        <label>Fecha y hora</label>
+        <input type="datetime-local" required>
+        <label>Tu correo electronico*</label>
+        <input type="email" placeholder="email@email.com">
+        <label>Reservar una mesa</label>
+        <input type="submit" placeholder="Reserva una mesa">
+        <label>Acepto los terminos de uso</label>
+        <input type="checkbox">
       </form>
 
     </section>
