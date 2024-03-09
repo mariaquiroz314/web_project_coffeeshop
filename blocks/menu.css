@@ -1,0 +1,92 @@
+.menu {
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.menu__title {
+  margin: 100px auto 24px;
+  max-width: 800px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  margin: 0 auto 100px;
+  max-width: 800px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto 100px;
+}
+
+.menu__cards-coffee {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card__cake {
+  margin-top: 100px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  width: 540px;
+}
+
+.card__card-one {
+  margin-right: 100px;
+}
+
+.card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto 32px 0;
+}
+
+.card__content {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.card__list-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: blueviolet;
+  margin-bottom: 16px;
+}
+
+.card__list-item-last {
+  margin: 0;
+}
+
+.card__list-divider {
+}
