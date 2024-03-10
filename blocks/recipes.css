@@ -48,8 +48,6 @@
 }
 
 .recipes__video-item {
-  margin: 0 0 0;
-  padding: 0 0 0;
   box-sizing: border-box;
 }
 
@@ -59,9 +57,6 @@
 }
 
 .recipes__video-caption {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   color: #ffffff;
   font-family: "Inter";
   font-style: normal;
@@ -73,4 +68,9 @@
   justify-content: space-between;
   box-sizing: border-box;
   margin-top: 24px;
+}
+
+.recipes__caption-description {
+  margin: 0;
+  padding: 0;
 }
