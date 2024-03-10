@@ -12,42 +12,6 @@
   background-repeat: no-repeat;
 }
 
-.nav {
-  display: flex;
-  justify-content:space-between;
-}
-
-.nav__logo {
-  width: 105px;
-  height: 39px;
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.nav__links {
-  display: flex;
-  column-gap: 20px;
-  padding: 0;
-  list-style-type: none;
-  margin-top: 30px;
-  margin-right: 80px;
-  font-family:"Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.nav__link {
-  text-decoration: none;
-  color: black;
-}
-
-.nav__link:hover {
-  color: #1f69c9;
-  cursor: pointer;
-}
-
 .header__title {
   max-width: 729px;
   margin-left: 80px;

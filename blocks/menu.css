@@ -50,45 +50,7 @@
   margin-right: auto;
 }
 
-.card {
-  width: 540px;
-}
-
 .menu__card-first {
   margin-right: 100px;
 }
 
-.card__title {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 0 auto 32px 0;
-}
-
-.card__content {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  margin: 0;
-  padding: 0;
-}
-
-.card__list-item {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: blueviolet;
-  margin-bottom: 16px;
-}
-
-.card__list-item-last {
-  margin: 0;
-}
-
-.card__list-divider {
-  flex-grow: 1;
-  border-bottom: 1px solid #838383;
-}
