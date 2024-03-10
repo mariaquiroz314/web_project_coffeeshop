@@ -43,7 +43,7 @@
   justify-content: space-between;
 }
 
-.card__cake {
+.menu__card-last {
   margin-top: 100px;
   margin-bottom: 0;
   margin-left: auto;
@@ -54,7 +54,7 @@
   width: 540px;
 }
 
-.card__first {
+.menu__card-first {
   margin-right: 100px;
 }
 
