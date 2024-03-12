@@ -1,5 +1,5 @@
 
-Triple espresso
+TRIPLE ESPRESSO
 
 Nombre del proyecto: Cafe de especialida en Triple Peaks 
 
